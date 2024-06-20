@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/home/ssj/RL-ViGen/wrappers/')
+sys.path.append('/home/ssj/Visual-RL-Generalization-with-CycAug/wrappers/')
 from dm_env import specs, Environment, TimeStep, StepType
 from dmc import ActionDTypeWrapper, ActionRepeatWrapper, ExtendedTimeStepWrapper
 from dm_control.suite.wrappers import action_scale
