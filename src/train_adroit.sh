@@ -5,7 +5,7 @@ stage1_use_pretrain=False
 
 stage2_n_update=0
 save_models=True
-local_data_dir=/data/your_path/VRL3-open-source/vrl3data
+local_data_dir=/data/ssj/VRL3-open-source/vrl3data
 
 # need change
 task_name='door'

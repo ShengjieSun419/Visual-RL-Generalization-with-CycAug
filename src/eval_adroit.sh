@@ -20,7 +20,7 @@ do
 	seed=${i}
 	# using stable model
 	prefix_path="./output_stable/train/adroit/${task_name}-v0/${algorithm}/${seed}"
-	eval_path="output_stable/eval/adroit/${task_name}-v0/${algorithm}/${seed}"
+	eval_path="./output_stable/eval/adroit/${task_name}-v0/${algorithm}/${seed}"
 	if [ ! -d "$eval_path" ]; then
 		# 如果路径不存在，则创建路径
 		mkdir -p "$eval_path"
